@@ -12,7 +12,16 @@
       <b-button variant="success">Button</b-button>
       <b-button variant="outline-primary">Button</b-button>
     </div>
+    <div id="login">
+      <label>Usuario:</label> <input type="text" name="Usuario" v-model="input.Usuario" placeholder="Usuario" />
+    <br>
+    <label>Contraseña:</label> 
+      <input type="password" name="password" v-model="input.password" placeholder="Password" />
+      <br>
+      <button href="" type="button" v-on:click="login()">Login</button>
+     </div>
     <div>
+      <a ></a>
       <b-button>I am a Button</b-button>
       <b-button href="">I am a Link</b-button>
     </div>

@@ -7,7 +7,7 @@
 <label>Contraseña:</label> 
   <input type="password" name="password" v-model="input.password" placeholder="Password" />
   <br>
-  <button href="" type="button" v-on:click="login()">Login</button>
+  <button @click="" type="button" v-on:click="login()">Login</button>
  </div>
  <div>
   <b-button>Button</b-button>
